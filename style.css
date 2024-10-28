@@ -1,0 +1,303 @@
+@import url( "https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap");
+
+html{
+    box-sizing: border-box;
+}
+*,*::after, * ::before{
+    box-sizing: inherit
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+
+
+:root{
+    --primary-color:#3498db;
+    --secondary-color:#2ecc71;
+}
+.homepage{
+
+    height: 100vh;
+    
+   
+   
+}
+.navbar{
+    height: 5rem;
+   
+    padding: 1rem;
+    
+}
+.navbar .logo{
+    padding-left: 1rem;
+    font-size: 40px;
+    font-weight: 500;
+    text-align: center;
+}
+.navbar ul{
+    font-size: 20px;
+    text-transform: uppercase;
+    
+   
+   
+}
+.navbar ul a{
+    font-size: 20px;
+    color: black;
+    text-decoration: none;
+   padding-right: 50px;
+   font-weight: 300;
+   text-align: center;
+   
+}
+.navbar ul #btn{
+    width: 120px;
+    height: 50px;
+    background-color: transparent;
+    border-radius: 20px;
+    color: var(--primary-color);
+    cursor: pointer;
+    border: 1px solid var(--primary-color);
+}
+.navbar ul #btn:hover{
+    border-style: none;
+    color: black;
+}
+.homepagecontainer{
+    background: #f0ebeb;
+    
+    height: calc(100vh - 5rem);
+    
+    display: flex;
+    background-attachment: fixed;
+}
+.homepagecontainer .right{
+    
+    margin-top: 10rem;
+    width: 50%;
+    height: 50%;
+   
+    margin-left: 2rem;
+    padding: 3rem;
+}
+.homepagecontainer .left{
+    width: 50%;
+    height: 80%;
+    background-attachment: fixed;
+
+    
+   
+}
+.homepagecontainer .right h6{
+    font-weight: 100;
+    font-size: 19px;
+    opacity: 0.8;
+}
+.homepagecontainer .right h3{
+    letter-spacing: .5rem;
+    font-weight: 800;
+}
+span{
+    font-weight: 800;
+    font-size: 30px;
+    letter-spacing: .2rem;
+    color: var(--primary-color);
+}
+.homepagecontainer .right p{
+    opacity: 0.5;
+    margin-top: 2rem;
+}
+.homepagecontainer .right #homebtn{
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+.homepagecontainer .right #homebtn:hover{
+    color: black;
+    border: var(--secondary-color);
+    border-style: none;
+}
+
+
+
+.homepagecontainer .left img{
+    margin-top: 4rem;
+   margin-left: 10rem;
+   border-bottom: 1px solid var(--secondary-color);
+   border-right: 1px solid var(--secondary-color);
+   box-shadow: 10px 10px 5px lightblue;
+    
+   
+}
+.about{
+    height: 60vh;
+    
+}
+.about h3{
+    padding-top: 3rem;
+   padding-left: 2rem;
+}
+.aboutrow{
+    position: relative;
+    margin: 4rem;
+    
+    width: 300px;
+    height: 20rem;
+    padding: 2rem;
+    box-shadow: 10px 10px 5px lightblue;
+}
+.cardabout{
+    position: absolute;
+    display: flex;
+    /* justify-content:space-around; */
+    flex-wrap: wrap;
+    
+   
+    flex-direction: row;
+}
+
+.aboutrow .icon {
+    
+    width: 6rem;
+    padding-left: 1rem;
+   
+    font-size: 3rem;
+    margin-bottom: 2rem;
+}
+.aboutrow .aboutcontent {
+    padding: 2rem;
+   
+    
+}
+
+.aboutrow .aboutcontent h3{
+    font-size: 0px;
+    font-weight: 400;
+
+}
+.aboutrow .aboutcontent p{
+    font-size: 15px;
+    font-weight: 50;
+    opacity: 0.5;
+
+}
+.aboutrow .aboutcontent a{
+    font-size: 19px;
+    font-weight: 50;
+    color: rgb(80, 78, 78);
+    text-decoration: none;
+
+}
+
+.work{
+    height: 80vh;
+    background-color: #f0ebeb;
+}
+.work  h3{
+    padding-top: 3rem;
+   padding-left: 2rem;
+}
+.work .workrow{
+    position: relative;
+    display: flex;
+  
+    height: 80vh;
+}
+.work .workrow .workright{
+   
+ 
+    
+    width: 50%;
+    height: 80%;
+
+}
+
+.work .workrow .workright img{
+   
+ 
+    height: 597px;
+   
+
+}
+.work .workrow .workleft{
+   
+  
+    width: 50%;
+    height: 90%;
+
+}
+.work  .workleft .workcontent{
+    margin-left: 4rem;
+ 
+  
+    width: 500px;
+    height: 90%;
+    padding: 1rem;
+   
+
+}
+.work  .workrow .workleft .workcontent h3{
+    padding-left: 4rem;
+    
+}
+
+.work  .workrow .workleft .workcontent p{
+    padding-bottom: 3rem;
+    opacity: 0.8;
+    padding: 3rem;
+}
+.work  .workrow .workleft .workcontent a{
+  color: #000000;
+  padding-left: 3rem;
+  padding-top: 3rem;
+  display: block;
+}
+
+
+.smallcontainer{
+    width: 100%;
+    height: 300px;
+   background-color: aliceblue;
+}
+.smallcontainer .columnsm{
+    display: flex;
+    justify-content: space-around;
+}
+.smallcontainer .columnsm .rightsm{
+    padding: 3rem;
+    margin-top: 40px;
+    width: 500px;
+    height: 200px;
+    
+}
+.smallcontainer .columnsm .rightsm h6{
+    font-size: 30px;
+    font-weight: 300;
+    padding-bottom: 1rem;
+}
+.smallcontainer .columnsm .leftsm{
+    padding: 5rem;
+    margin-top: 40px;
+    height: 200px;
+    width: 400px;
+  
+   
+}
+.smallcontainer .columnsm .leftsm #btnsm{
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    color: var(--primary-color);
+    margin-top: 1rem;
+    border: 1px solid var(--primary-color);
+    cursor: pointer;
+}
+.smallcontainer .columnsm .leftsm #btnsm:hover{
+    color: #000000;
+    border-style: none;
+
+}
